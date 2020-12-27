@@ -1,0 +1,7 @@
+Progress Steps
+
+The Progress Steps is usually seen in websites with forms, like multilevel forms:
+when you're buying something on the internet. It's a progress bar that starts at one
+and just goes along with some buttons to control the steps: all this functionality is
+controlled by javascript.
+
