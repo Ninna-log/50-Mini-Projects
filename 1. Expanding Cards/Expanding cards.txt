@@ -1,0 +1,22 @@
+Expanding Cards
+
+The main goal is to design cards that can be expanded by clicking on them one by one.
+So, in the HTML within the div container with the class .container are 5 panels or 5 cards
+with an h3 each of them. Every panel is identified with a class .panel, and only 1 of them has
+the class .active which will be the active panel that will be expanded when the click event
+listener is triggered.
+
+In the CSS is the body {} where is specified as the father of each panel, so that's because
+has a display: flex, that enables every panel next to each other, side by side; then
+an align-items: center, that puts every panel in the right-center of the body as the
+div .container father.
+
+In the script.js I wrote a few lines of code, starting by defining a const
+variable with the name 'panels' where every panel written in the HTML will
+be saved into a Node list by using Jquery selector (document.querySelectorAll ('. panel'))
+because it allows us to select anything we want. We can see the array by console.log (panels).
+Then we loop in panels' array with a forEach that receives as a parameter
+an anonymous panel with an arrow function: so, with every click event in any panel, the
+.active class will be added to the chosen panel, and the other panels that weren't chosen
+or were previously chosen, their class .active will be removed by the removeActiveClasses ()
+function.

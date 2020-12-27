@@ -1,0 +1,22 @@
+Tarjetas de expansión
+
+El objetivo principal es diseñar tarjetas que se puedan expandir haciendo clic en ellas una a una.
+Entonces, en el HTML dentro del contenedor div con la clase .container hay 5 paneles o 5 tarjetas
+con un h3 cada uno de ellos. Cada panel se identifica con un .panel de clase, y solo uno de ellos tiene
+la clase .active, que será el panel activo que se expandirá cuando el evento de clic
+se activa el oyente.
+
+En el CSS está el body{} donde se especifica como el padre de cada panel, es por eso que 
+tiene una display: flex, que pone a cada panel uno al lado del otro; luego
+un align-items: center, que coloca cada panel en el centr del body como el
+div .container padre.
+
+En el script.js escribí algunas líneas de código, comenzando por definir una variable constante
+con el nombre 'paneles' donde cada panel escrito en el HTML
+es guardado en una lista de nodos usando el selector de Jquery (document.querySelectorAll ('. panel'))
+porque nos permite seleccionar lo que queramos. Podemos ver el arreglo por console.log (paneles).
+Luego hacemos un loop en el array de panels con un forEach que recibe como parámetro
+un panel anónimo con una función de flecha: así, con cada evento clic en cualquier panel,
+la clase .active se agregará al panel elegido y los otros paneles que no fueron elegidos
+o fueron elegidos previamente, su clase .active será eliminada por removeActiveClasses ()
+función.
