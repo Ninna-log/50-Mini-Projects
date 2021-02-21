@@ -1,7 +1,7 @@
 Movie App
 
 This is a mini project where I'm using a third API data,
-which gives a database of movies with their their
+which gives a database of movies with their
 ratings and images. 
 First of all, I created the UI, then I registered an
 API key with the TMD DB service, and using JavaScript
