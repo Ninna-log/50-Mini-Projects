@@ -1,8 +1,8 @@
 # 50-Projects-in-1-month-
 50 Mini projects using HTML, CSS and JS
 
-This includes 50 mini projects in HTML, CSS & JavaScript that relate to the DOM (Document Object Model). 
-Here is a list of the projects I made:
+This folder contains 50 mini projects with HTML, CSS & JavaScript that are related to the DOM (Document Object Model). 
+Here you have a list of the projects I made:
 
 1. Expanding Cards.
 2. Progress Steps
